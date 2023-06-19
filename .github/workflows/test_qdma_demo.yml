@@ -2,9 +2,9 @@ name: QDMA-DEMO-TEST
 
 on:
   push:
-    branches:
-      - 'master'
-      - 'qdma-demo'
+    branches: [master, qdma-demo]
+  pull_request:
+    branches: [master]
 
 jobs:
   QDMA-DEMO-TEST:
